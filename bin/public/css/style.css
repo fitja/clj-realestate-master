@@ -1,0 +1,279 @@
+body{
+	background-color: #F1F1F1;
+}
+
+#menu{
+	background: #710136;
+	overflow: hidden;
+	text-align: center;
+	width: 750px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu li, #menu a {
+	color: #fff;
+	font: bold 12px verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+	line-height: 40px;
+	height: 40px;
+	margin: 0;
+	padding: 0 15px;
+	display: inline;
+}
+#home{
+	float:left;
+}
+#logreg{
+	float:right;
+}
+#footer {
+	background-color: #710136;
+	font: normal 10px/20px arial, verdana, helvetica, sans-serif;
+	text-align: center;
+	height: 20px;
+	width: 750px;
+	color: #fff;
+	clear: both;
+	margin: 0 auto;
+	padding:5px;
+}
+.realestateimage{
+	height:150px;
+	width:150px;
+	margin-top:10px;
+	margin-right:50px;
+}
+#titleheader{
+	text-align: center;
+}
+#title, #title a {
+	color: #710136;
+	display: inline-table;
+	font: bold 40px arial, helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 8px;
+	line-height: 75px;
+	cursor: default;
+	text-decoration: none;
+	width: auto;
+	margin: 0 auto;
+}
+#cheapest {
+	background: #710136;
+	color:#F3F3F3;
+	border: 2px solid #FFF;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size:15px;
+	text-align:center;
+	height: 300px;
+	margin-right:10px;
+	overflow: hidden;
+}
+#cheapest h1
+{
+	margin-top:10px;
+	margin-bottom:0;
+}
+
+#cheapest ul {
+	width: 710px;
+	margin: 0;
+	margin-left: 15px;
+	padding: 0;
+	overflow: hidden;
+}
+
+#cheapest ul li {
+	text-align: center;
+	margin-left: 25px;
+	display: inline;
+	float: left;
+}
+
+
+#cheapest ul li h6 {
+	font: bold arial, verdana, helvetica;
+	color: #FFF;
+	width: 160px;
+	margin-top: 10px;
+}
+
+#cheapest ul li a img {
+	border: 3px solid #fff;
+}
+
+#container {
+	background-color: #FFF;
+	width: 732px;
+	height: auto;
+	min-height:800px;
+	margin: 0 auto;
+	margin-top:10px;
+}
+
+.content {
+	font: normal 14px/21px arial, verdana, helvetica, sans-serif;
+	text-align: left;
+	margin: 20px 10px 0 20px;
+}
+
+.content h1, .content ul {
+	margin: 0;
+	padding: 0;
+}
+
+.content h1 {
+	color: #FFF;
+	font: normal 40px verdana, helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+.content h6 {
+	margin: 20px 0 4px 0;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+	
+}
+
+p.logintitle, p.registertitle, p.realestatetitle {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 15px auto;
+}
+
+p.newusererror, p.loginerror, p.realestateerror {
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+	margin: 15px auto;
+}
+
+label.errnewuser, label.errnewrealestate {
+	font-size: 10px;
+	font-weight: bold;
+	color: red;
+	margin: 15px auto;
+}
+
+label.loginlabel, label.newuser, label.newrealestate {
+	width: 120px;
+	text-align: left;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.realestateinfo {
+	height: auto;
+	min-height: 450px;
+	margin-top:50px;
+}
+
+div.realestateinfo img {
+	height:300px;
+	margin-left:10px;
+	border: solid 1px #710136;
+	float:right;
+}
+
+div.realestateinfo h2 {
+	color: #710136;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+div.realestateinfo p.realestateheight, div.realestateinfo p.realestateposition, div.realestateinfo p.realestaterating {
+	font-size: 12px;
+	//font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.textarea {
+	height: 200px;
+	margin: 0 auto 20px;
+	width: 600px;
+	display: block;
+}
+
+.desc {
+	margin: 0 auto;
+}
+
+.realestateprice {
+	font-size: 16px;
+	color: #710136;
+}
+
+.realestateai ul {
+	color: #710136;
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.button{
+	background-color: #710136;
+    background-image: linear-gradient(to bottom, #710136, #710136);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+	margin-top: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+}
+
+
+.realestateais {
+	color: #710136;
+	text-align:left;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size:15px;
+	border: 2px solid #FFF;
+	height: auto;
+	overflow: hidden;
+	margin-right:10px;
+}
+
+
+.realestateais ul {
+	width: 710px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+}
+
+.realestateshort {
+	border-bottom: 1px solid;
+	padding-bottom: 10px;
+}
+
+.hitra {
+	margin-right: 50px;
+	height: 150px;
+	width: 150px;
+}
